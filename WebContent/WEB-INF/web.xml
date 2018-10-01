@@ -22,6 +22,15 @@
         <url-pattern>/register.jsp</url-pattern>
         <url-pattern>/index.jsp</url-pattern>
         <url-pattern>/login.jsp</url-pattern>
+        <url-pattern>/homepage.jsp</url-pattern>
+        <url-pattern>/productdetails.jsp</url-pattern>
+        <url-pattern>/shoppingcart.jsp</url-pattern>
+        <url-pattern>/createAccount.jsp</url-pattern>
+        <url-pattern>/forgotpassword.jsp</url-pattern>
+        <url-pattern>/HelpContact.jsp</url-pattern>
+        <url-pattern>/conditions.jsp</url-pattern>
+        <url-pattern>/privacy.jsp</url-pattern>
+        <url-pattern>/copyright.jsp</url-pattern>
         <url-pattern>*.html</url-pattern>
     </servlet-mapping>
 </web-app>

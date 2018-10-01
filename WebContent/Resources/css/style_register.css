@@ -1,0 +1,117 @@
+body{
+
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	color: #00008B;
+
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
+
+myform{
+	background: rgba(255,255,255,0.5);
+	opacity: 0.5;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.button {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+
+.login
+{
+	width: 370px;
+	height: 350px;
+	background: transparent;
+	color: #000;
+	top: 50%;
+	left: 10%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 100px;
+}
+
+.logo
+{
+	width: 100px;
+	height: 70px;
+
+}
+
+h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.login p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+}
+
+
+.login input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login input[type="email"],input[type="password"], input[type="text"]
+{
+	border: none;
+  border-radius: 5px;
+	background: #87CEEB;
+	outline: red;
+	height: 40px;
+	width: 300px;
+	color: #00008B;
+	font-size: 16px;
+}
+
+.login input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 28px;
+	background: #87CEEB;
+	color: #00008B;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
+.login input[type]="submit"]: hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+label {
+	width:180px;
+	clear:left;
+	text-align:left;
+	padding-right:10px;
+	float:left;
+	color: #00008B;
+
+}

@@ -1,0 +1,135 @@
+body
+{
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	color: #00008B;
+}
+
+myform{
+	background: rgba(255,255,255,0.5);
+	opacity: 0.5;
+}
+
+.button{
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+
+.login
+{
+	width: 370px;
+	height: 350px;
+	background: transparent;
+	color: #00008B;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	border: 0.0px solid black;
+	box-sizing: border-box;
+	padding: 40px 70px;
+}
+
+.logo
+{
+	width: 100px;
+	height: 70px;
+}
+
+
+h1
+{
+	height: 60%;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 50px;
+
+}
+
+.login p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+}
+
+
+.login input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login input[type="email"],input[type="password"]
+{
+
+	border: none;
+	border-bottom: lpx solid #fff;
+	background: 86B5CD;
+	outline: none;
+	height: 30px;
+	color: #00008B;
+	font-size: 16px;
+	border-radius: 5px;
+
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.login input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 28px;
+	background: 86B5CD;
+	color:#00008B;
+	font-size: 18px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.login input[type="submit"]:hover
+{
+	background: #00008B;
+	color: #FFF;
+}
+
+.mylink a:link{
+	text-decoration: none;
+	color: #000000;
+	bottom: 20;
+}
+.mylink a:visited{
+	text-decoration: none;
+	color:#663399;
+}
+
+.mylink a:hover{
+	background: #00008B;
+	color: #FFF;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em -70;
+    padding: 0;
+}

@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>ProductDetails</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<img src="capture.jpg" class="logo">
+<body>
+	<h1>IPHONE</h1>
+	<button id="close-image"><img src="button.png"></button>
+	<div class="login">
+	<p> DESCRIPTION: IPHONE 10: 11MP CAMERA, FULL HD </p><br>
+    <P> DEPARTMENT: PHONES</p><br>
+    <p> BRAND: IPHONE</P><br>
+    
+    <input type="submit" name="" value="Add To Cart">
+    <input type="submit" name="" value="Buy">
+    
+	
+	</div>
+	<div class="footer">
+	<small>&copy; Copyright 2018, Kagy Corporation</small> </br>
+	  <a href="#">Conditions of Use &nbsp;</a> 
+	  <a href="#">Privacy Notice &nbsp;</a> 
+	  <a href="#">Copyright Policy </a> 
+	</div>
+</body>
+
+</head>
+
+</html>
