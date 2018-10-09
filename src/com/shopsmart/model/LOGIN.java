@@ -2,28 +2,32 @@ package com.shopsmart.model;
 
 public class LOGIN {
 	
-	String EmailId;
-	String PhoneNo;
-	String Password;
+	String emailId;
+	String phoneNo;
+	String password;
+	
 	
 	public String getEmailId() {
-		return EmailId;
+		return emailId;
 	}
 	public void setEmailId(String emailId) {
-		EmailId = emailId;
+		this.emailId = emailId;
 	}
 	public String getPhoneNo() {
-		return PhoneNo;
+		return phoneNo;
 	}
 	public void setPhoneNo(String phoneNo) {
-		PhoneNo = phoneNo;
+		this.phoneNo = phoneNo;
 	}
 	public String getPassword() {
-		return Password;
+		return password;
 	}
 	public void setPassword(String password) {
-		Password = password;
+		this.password = password;
 	}
+	
+	
+
 	
 
 }

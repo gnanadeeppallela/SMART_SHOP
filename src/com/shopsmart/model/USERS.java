@@ -2,43 +2,46 @@ package com.shopsmart.model;
 
 public class USERS {
 	
-	String FirstName;
-	String LastName;
-	String Password;
-	String EmailId;
-	String PhoneNo;
-	
+	String firstName;
+	String lastName;
+	String password;
+	String emailId;
+	String phoneNo;
 	
 	public String getFirstName() {
-		return FirstName;
+		return firstName;
 	}
 	public void setFirstName(String firstName) {
-		FirstName = firstName;
+		this.firstName = firstName;
 	}
 	public String getLastName() {
-		return LastName;
+		return lastName;
 	}
 	public void setLastName(String lastName) {
-		LastName = lastName;
+		this.lastName = lastName;
 	}
 	public String getPassword() {
-		return Password;
+		return password;
 	}
 	public void setPassword(String password) {
-		Password = password;
+		this.password = password;
 	}
 	public String getEmailId() {
-		return EmailId;
+		return emailId;
 	}
 	public void setEmailId(String emailId) {
-		EmailId = emailId;
+		this.emailId = emailId;
 	}
 	public String getPhoneNo() {
-		return PhoneNo;
+		return phoneNo;
 	}
 	public void setPhoneNo(String phoneNo) {
-		PhoneNo = phoneNo;
+		this.phoneNo = phoneNo;
 	}
+	
+	
+	
+	
 	
 
 }
