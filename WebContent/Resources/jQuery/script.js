@@ -9,99 +9,17 @@ $(function(){
     });
 });
 
-const petsData = [
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Dog",
-    photo: "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Dog",
-    photo: "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Dog",
-    photo: "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Dog",
-    photo: "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
-  },
-  {
-    name: "Item1",
-    species: "Cat",
-    photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
-  }
-];
+
 
 function petTemplate(pet) {
   return `
     <div class="animal1">
-    <img class="pet-photo" src="${pet.photo}">
-    <h5 class="pet-name">${pet.name} <span class="species">(${pet.species})</span></h5>
+    <img class="pet-photo" src="http://wptest.io/demo/wp-content/uploads/sites/2/2012/12/unicorn-wallpaper.jpg">
+    console.log(${element.price});
+    <h5 class="pet-name">${pet.brand} <span class="species">(${pet.price})</span></h5>
     </div>
   `;
 }
 
-document.getElementById("box").innerHTML = `
-
-  ${petsData.slice(0,4).map(petTemplate).join("")}
+document.getElementById("box").innerHTML = `${petsData.slice(0,4).map(petTemplate).join("")}
 `;

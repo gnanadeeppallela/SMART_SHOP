@@ -2,50 +2,51 @@ package com.shopsmart.model;
 
 public class ITEM {
 	
-	public String ProductName;
-	public String Description;
-	public String Price;
-	public String Department;
-	public String Brand;
-	public String ImageUrl;
-	
-	
+	private String productName;
+	private String description;
+	private String price;
+	private String department;
+	private String brand;
+	private String imageUrl;
 	public String getProductName() {
-		return ProductName;
+		return productName;
 	}
 	public void setProductName(String productName) {
-		ProductName = productName;
+		this.productName = productName;
 	}
 	public String getDescription() {
-		return Description;
+		return description;
 	}
 	public void setDescription(String description) {
-		Description = description;
+		this.description = description;
 	}
 	public String getPrice() {
-		return Price;
+		return price;
 	}
 	public void setPrice(String price) {
-		Price = price;
+		this.price = price;
 	}
 	public String getDepartment() {
-		return Department;
+		return department;
 	}
 	public void setDepartment(String department) {
-		Department = department;
+		this.department = department;
 	}
 	public String getBrand() {
-		return Brand;
+		return brand;
 	}
 	public void setBrand(String brand) {
-		Brand = brand;
+		this.brand = brand;
 	}
 	public String getImageUrl() {
-		return ImageUrl;
+		return imageUrl;
 	}
 	public void setImageUrl(String imageUrl) {
-		ImageUrl = imageUrl;
+		this.imageUrl = imageUrl;
 	}
+	
+	
+	
 	
 
 }

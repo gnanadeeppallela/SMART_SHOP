@@ -1,5 +1,6 @@
 package com.shopsmart.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -51,17 +52,23 @@ public class LOGIN_REGISTER {
 		return new ModelAndView("UserHomePage", "message", message);
 	}
 	@RequestMapping("/homepage")
-	public ModelAndView homepage(@ModelAttribute("LOGIN") LOGIN login,@ModelAttribute("USERS") USERS user) {
+	public ModelAndView homepage(@ModelAttribute("LOGIN") LOGIN login,@ModelAttribute("USERS") USERS user){
 		USERS user2; 
 		user2=userDao.validateUser(login);
 		if(user2!=null){
 			System.out.println(user2.getFirstName());
 			String message=user2.getFirstName();
-			ModelAndView model=new ModelAndView();
+			
 			List<ITEM> items= userDao.getItemList();
-			System.out.println(items);
-			model.addObject("petsData",items);
-			return new ModelAndView("home", "message", message);
+			System.out.println(items.get(0).getProductName());
+			ModelAndView model=new ModelAndView("home", "items", items);
+			//ITEM item=new ITEM();
+			//item.setBrand("bold");
+			List item=new ArrayList();
+			item.add("hello");
+			model.addObject("petsData",userDao.getItemList());
+			
+			return model;
 		}
 		else{
 			String message="Invalid username/password";
