@@ -115,5 +115,17 @@ public class LOGIN_REGISTER {
 		String message="HelpContact";
 		return new ModelAndView("HelpContact", "message", message);
 	}
+	@RequestMapping("/sellerPage")
+	public ModelAndView seller() {
+ 
+		String message="HelpContact";
+		return new ModelAndView("sellerPage", "message", message);
+	}
+	@RequestMapping("/cartAndPayment")
+	public ModelAndView payment() {
+ 
+		String message="HelpContact";
+		return new ModelAndView("cartAndPayment", "message", message);
+	}
 
 }

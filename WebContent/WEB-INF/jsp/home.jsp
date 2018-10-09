@@ -25,7 +25,7 @@
 	<button id="close-image"><img src="${button}"></button>
 
 	<div class="login" style="left:10%;">
-	<p><button class="sell">Sell</button></p>
+	<p><button class="sell"><a href=sellerPage.jsp>Sell</a></button></p>
 
 	</div>
 	<div class="btn-group">
